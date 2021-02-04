@@ -8,6 +8,19 @@ body{
     align-items: center;
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(226,226,226,1) 110%);
 }
+
+@media (max-width: 800px) {
+    body.works_on_smartphone {
+        display: block;
+    }
+    body.works_on_smartphone main {
+        display: block;
+    }
+    header .right {
+        float: none;
+    }
+  }
+  
 h4, h2,small,a{
     margin: 0;
     padding: 0;
