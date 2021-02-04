@@ -5,16 +5,25 @@
     margin:0;
 }
 
- @media screen and (min-width: 1024px){
-  .header {
-    display:flex;
-   }
- }
+
+
 
 body {
     display: flex;
     flex-direction:column;
     min-height: 100vh;
+}
+
+@media (max-width: 800px) {
+  body.works_on_smartphone {
+  	display: block;
+  }
+  body.works_on_smartphone main {
+  	display: block;
+  }
+  header .right {
+  	float: none;
+  }
 }
 
 main {
